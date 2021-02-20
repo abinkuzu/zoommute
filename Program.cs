@@ -39,13 +39,13 @@ namespace zoommute
             if (data == "1")
             {
                 CoreAudioController controller = new CoreAudioController();
-                await controller.DefaultPlaybackDevice.SetMuteAsync(true);
+                await controller.DefaultCaptureDevice.SetMuteAsync(true);
                  Console.WriteLine("You're muted...");
             }
             else if (data == "2")
             {
                 CoreAudioController controller = new CoreAudioController();
-                await controller.DefaultPlaybackDevice.SetMuteAsync(false);
+                await controller.DefaultCaptureDevice.SetMuteAsync(false);
                  Console.WriteLine("Speak loud...");
             }
 
