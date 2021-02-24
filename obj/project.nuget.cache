@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0EP778W7kBil1cwDpMwj7hH/xY3riZQQmYFQqwrFzk/fKH84V02uU6XrEaJPOJBpfiEkv5hMPeqWOa4v5Rt7w==",
+  "dgSpecHash": "80TkXU8BP9kJeptUpMxcMy9wH8inb9zpYbzrd7+0fvWQGFL7ct8bRTgSdWBi3R4U44OCjmlsVNJuXZuUsXnbYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
+  "projectFilePath": "c:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emreo\\.nuget\\packages\\audioswitcher.audioapi\\4.0.0-alpha5\\audioswitcher.audioapi.4.0.0-alpha5.nupkg.sha512",
     "C:\\Users\\emreo\\.nuget\\packages\\audioswitcher.audioapi.coreaudio\\4.0.0-alpha5\\audioswitcher.audioapi.coreaudio.4.0.0-alpha5.nupkg.sha512",

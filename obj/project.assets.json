@@ -582,11 +582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
+      "projectUniqueName": "c:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
       "projectName": "zoommute",
-      "projectPath": "C:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
+      "projectPath": "c:\\Users\\emreo\\Projects\\zoommute\\zoommute.csproj",
       "packagesPath": "C:\\Users\\emreo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emreo\\Projects\\zoommute\\obj\\",
+      "outputPath": "c:\\Users\\emreo\\Projects\\zoommute\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

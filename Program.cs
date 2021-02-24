@@ -22,31 +22,31 @@ namespace zoommute
             Console.ReadLine();
             mySerialPort.Close();
         }
-      
-       
+
+
         private static void DataReceivedHandler(
                        object sender,
                        SerialDataReceivedEventArgs e)
         {
             SerialPort sp = (SerialPort)sender;
-            string indata = sp.ReadLine();       
+            string indata = sp.ReadLine();
             SendCommandToSoundCard(indata.Trim());
         }
 
         private static async void SendCommandToSoundCard(string data)
         {
-           
+
             if (data == "1")
             {
                 CoreAudioController controller = new CoreAudioController();
                 await controller.DefaultCaptureDevice.SetMuteAsync(true);
-                 Console.WriteLine("You're muted...");
+                Console.WriteLine("You're muted...");
             }
             else if (data == "2")
             {
                 CoreAudioController controller = new CoreAudioController();
                 await controller.DefaultCaptureDevice.SetMuteAsync(false);
-                 Console.WriteLine("Speak loud...");
+                Console.WriteLine("Speak loud...");
             }
 
         }
